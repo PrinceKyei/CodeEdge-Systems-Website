@@ -1,0 +1,171 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header */
+header {
+    background: #0077ff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#theme-toggle {
+    background: #fff;
+    color: #0077ff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('B2.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #0077ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.cta-btn:hover {
+    background: #005fcc;
+}
+
+/* Features */
+.features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* About */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Subscribe */
+.subscribe {
+    background: #0077ff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    color: #0077ff;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#form-message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode header {
+    background: #1e1e1e;
+}
+
+body.dark-mode .cta-btn {
+    background: #444;
+}
+
+body.dark-mode .feature {
+    background: #1e1e1e;
+}
+
+body.dark-mode .subscribe {
+    background: #1e1e1e;
+}
