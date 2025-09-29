@@ -1,7 +1,7 @@
 # CodeEdge-Systems-Website
 CodeEdge Systems is a team of passionate developers and designers dedicated to helping businesses grow with modern technology.
 
-🔗 *Live Website:* [View Here]()  
+🔗 *Live Website:* [View Here](https://princekyei.github.io/CodeEdge-Systems-Website/)  
 
 ---
 
